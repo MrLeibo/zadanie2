@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/ptr.pioterek@gmail.com" method="POST">
+
+        <label for="name">Wpisz imię</label> <br>
+        <input type="text" id="name" placeholder="imię"><br><br/>
+
+        <label for="surname">Wpisz nazwisko</label><br>
+        <input type="text" id="surname" placeholder="nazwisko"><br><br/>
+
+        <label for="tel">Wpisz telefon</label><br>
+        <input type="tel" id="tel" placeholder="telefon"><br><br/>
+
+
+
+        <label for="options">Wybierz miasto</label><br>
+        <select name="options" id="options">
+           <option value="">Kraków</option> 
+           <option value="">Warszawa</option>
+           <option value="">opcja 3</option>
+           <option value="">opcja 4</option>
+       </select><br><br/>
+
+        <form>Wybierz płeć<br>
+            <input type="radio" name="gender" value="kobieta"> Mężczyzna<br>
+            <input type="radio" name="gender" value="meżczyzna"> Kobieta<br>
+            <input type="radio" name="gender" value="inna"> Inna
+        </form><br/>
+        <label for="msg">Wpisz wiadomość</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="wpisz wiadomość"></textarea><br>
+        <input type="submit" value="wyślij formularz">
+    </form>
+
+</body>
+
+</html>
